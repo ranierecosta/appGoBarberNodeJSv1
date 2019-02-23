@@ -1,4 +1,4 @@
-nodeJS - GoNode
+nodeJS - GoNode - App GoBarber
 
 yarn init -y // Instalar no diretório
 
@@ -7,4 +7,3 @@ yarn init -y // Instalar no diretório
 - yarn add nunjucks
 - yarn add eslint -D
 - yarn eslint --init
-- deletar package-lock.json -> yarn
