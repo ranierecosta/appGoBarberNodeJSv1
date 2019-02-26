@@ -13,7 +13,11 @@ class App {
   }
 
   middlewares () {
-    this.express.use(express.urlencoded({ extended: false }))
+    this.express.use(
+      express.urlencoded({
+        extended: false
+      })
+    )
   }
 
   views () {
@@ -23,6 +27,7 @@ class App {
       autoescape: true
     })
 
+    this.express.use(express.static(path.resolve(__dirname, 'public')))
     this.express.set('view engine', 'njk')
   }
 
@@ -31,4 +36,4 @@ class App {
   }
 }
 
-module.exports = new App().express
+module.exports = new App()
