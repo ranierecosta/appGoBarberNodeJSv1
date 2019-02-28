@@ -18,3 +18,5 @@ yarn init -y // Instalar no diretório
 
 - yarn add bcryptjs
 - yarn add multer
+- yarn add express-session
+- yarn add session-file-store
