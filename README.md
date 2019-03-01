@@ -20,3 +20,4 @@ yarn init -y // Instalar no diretório
 - yarn add multer
 - yarn add express-session
 - yarn add session-file-store
+- yarn add connect-flash
