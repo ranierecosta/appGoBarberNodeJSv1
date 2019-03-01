@@ -21,3 +21,5 @@ yarn init -y // Instalar no diretório
 - yarn add express-session
 - yarn add session-file-store
 - yarn add connect-flash
+- npx sequelize migration:create --name=create-appointments
+- npx sequelize db:migrate
