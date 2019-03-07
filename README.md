@@ -23,3 +23,4 @@ yarn init -y // Instalar no diretório
 - yarn add connect-flash
 - npx sequelize migration:create --name=create-appointments
 - npx sequelize db:migrate
+- yarn add moment
