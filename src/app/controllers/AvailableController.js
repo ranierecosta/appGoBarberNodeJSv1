@@ -19,8 +19,8 @@ class AvailableController {
     })
 
     const schedule = [
-      '8:00',
-      '9:00',
+      '08:00',
+      '09:00',
       '10:00',
       '11:00',
       '12:00',
@@ -33,6 +33,7 @@ class AvailableController {
 
     const available = schedule.map(time => {
       const [hour, minute] = time.split(':')
+
       const value = date
         .hour(hour)
         .minute(minute)
